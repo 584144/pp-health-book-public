@@ -1,0 +1,16 @@
+[
+{"uuid":"S1","type":"sleepAnalysis","start":"2026-10-24T23:40:00+08:00","end":"2026-10-25T01:40:00+08:00","value":"asleepCore","source":"我的 Apple Watch"},
+{"uuid":"S2","type":"sleepAnalysis","start":"2026-10-25T01:40:00+08:00","end":"2026-10-25T02:40:00+08:00","value":"asleepDeep","source":"我的 Apple Watch"},
+{"uuid":"S3","type":"sleepAnalysis","start":"2026-10-25T02:40:00+08:00","end":"2026-10-25T04:10:00+08:00","value":"asleepREM","source":"我的 Apple Watch"},
+{"uuid":"S4","type":"sleepAnalysis","start":"2026-10-25T04:10:00+08:00","end":"2026-10-25T04:30:00+08:00","value":"awake","source":"我的 Apple Watch"},
+{"uuid":"S5","type":"sleepAnalysis","start":"2026-10-25T04:30:00+08:00","end":"2026-10-25T07:00:00+08:00","value":"asleepCore","source":"我的 Apple Watch"},
+{"uuid":"S6","type":"sleepAnalysis","start":"2026-10-24T23:30:00+08:00","end":"2026-10-25T07:05:00+08:00","value":"inBed","source":"我的 iPhone"},
+{"uuid":"P1","type":"stepCount","start":"2026-10-25T08:00:00+08:00","end":"2026-10-25T09:00:00+08:00","value":2000,"unit":"count","source":"我的 iPhone"},
+{"uuid":"P2","type":"stepCount","start":"2026-10-25T08:00:00+08:00","end":"2026-10-25T09:00:00+08:00","value":2100,"unit":"count","source":"我的 Apple Watch"},
+{"uuid":"P3","type":"stepCount","start":"2026-10-25T10:00:00+08:00","end":"2026-10-25T11:00:00+08:00","value":900,"unit":"count","source":"我的 Apple Watch"},
+{"uuid":"W1","type":"bodyMass","start":"2026-10-25T07:10:00+08:00","end":"2026-10-25T07:10:00+08:00","value":66.55,"unit":"kg","source":"小米体脂秤"},
+{"uuid":"R1","type":"restingHeartRate","start":"2026-10-25T00:00:00+08:00","end":"2026-10-25T12:00:00+08:00","value":58,"unit":"count/min","source":"我的 Apple Watch"},
+{"uuid":"H1","type":"heartRate","start":"2026-10-25T08:01:00+08:00","end":"2026-10-25T08:01:00+08:00","value":72,"unit":"count/min","source":"我的 Apple Watch"},
+{"uuid":"WK1","type":"workout","start":"2026-10-24T19:05:00+08:00","end":"2026-10-24T19:40:00+08:00","workoutActivityType":"running","duration":2100,"totalEnergyBurned":320,"averageHeartRate":146.4,"maximumHeartRate":171,"totalDistance":5200,"source":"我的 Apple Watch"},
+{"uuid":"WK2","type":"workout","start":"2026-10-24T20:00:00+08:00","end":"2026-10-24T20:20:00+08:00","workoutActivityType":"traditionalStrengthTraining","duration":1200,"source":"我的 Apple Watch"}
+]

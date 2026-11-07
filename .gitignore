@@ -1,0 +1,12 @@
+# 真实健康数据和口令永远不进仓库
+.env
+data/
+demo-data/
+server/data/
+originals/
+imports/
+backups/
+*.heic
+*.HEIC
+node_modules/
+.DS_Store
