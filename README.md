@@ -10,9 +10,9 @@
 <img src="docs/screenshots/phone-today.png" width="24%"> <img src="docs/screenshots/phone-sleep.png" width="24%"> <img src="docs/screenshots/phone-women.png" width="24%"> <img src="docs/screenshots/phone-body.png" width="24%">
 </p>
 
-> 所有截图都来自 `scripts/make_demo_data.py` 生成的**虚构家庭**（林小禾一家），人名和数值都是编的。
+> 截图使用演示数据。所有健康数据私有存储在自己的服务器上，不包含在本仓库中。
 
-**English summary.** A self-hosted family health dashboard. It merges checkup reports, prescriptions, Apple Watch / Apple Health data (heart rate, HRV, sleep, cycles), smart-scale readings and a once-a-day natural-language check-in into one place, compares every metric with the person's *own* baseline, and turns that into at most three concrete actions for today. Single-file front end, zero-dependency Node.js server, JSON file storage. Not a medical device and not medical advice.
+**English summary.** A self-hosted family health dashboard. It merges checkup reports, prescriptions, Apple Watch / Apple Health data (heart rate, HRV, sleep, cycles), smart-scale readings and a once-a-day natural-language check-in into one place, compares every metric with the person's *own* baseline, and turns that into at most three concrete actions for today. Single-file front end, zero-dependency Node.js server, JSON file storage. All health data stays private on your own server and is not part of this repository. Not a medical device and not medical advice.
 
 ---
 
@@ -92,7 +92,7 @@ AI 把它整理成一条结构化的「当天记录」，通过 `POST /api/check
 - **服务端**：`server/server.js`，只用 Node 内置模块，无需 `npm install`。数据存在 `DATA_DIR/state.json`，原始设备样本按类型存成 `raw/<成员>/<类型>.ndjson`；每次保存前自动备份。
 - **认证**：整个页面用 Basic 认证（`PAGE_PASSWORD`）；设备推送用单独的 `INGEST_TOKEN`。
 
-## 本地试用（虚构数据）
+## 本地试用（演示数据）
 
 ```bash
 python3 scripts/make_demo_data.py demo-data
@@ -112,7 +112,7 @@ docker compose up -d --build
 
 ## 隐私
 
-这个仓库只包含代码、文档和虚构的演示数据。真实的健康数据、报告原件、`.env` 口令都只在自己的服务器上，`.gitignore` 已排除 `data/`、`demo-data/`、`.env`。
+所有健康数据私有存储在自己的服务器上，不包含在本仓库中。
 
 ## 声明
 
